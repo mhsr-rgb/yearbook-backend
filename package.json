@@ -19,5 +19,11 @@
   "homepage": "https://github.com/mhsr-rgb/yearbook-backend#readme",
   "dependencies": {
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@prisma/client": "^6.19.3",
+    "install": "^0.13.0",
+    "npm": "^11.17.0",
+    "prisma": "^6.19.3"
   }
 }
