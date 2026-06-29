@@ -24,3 +24,6 @@ if (process.env.VERCEL !== '1') {
 
 // exporta o app para a Vercel usar como serverless function
 export default app;
+app.use(express.json());
+
+app.use("/alunos", alunosRouter);
